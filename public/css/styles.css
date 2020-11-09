@@ -1,0 +1,60 @@
+.profilephoto {
+    height: 220px;
+    width: 220px;
+}
+
+@media only screen and (max-width: 600px) {
+    .profilephoto {
+        height: 120px;
+        width: 120px;
+    }
+}
+
+.detailsphoto {
+    height: 50px;
+    width: 50px;
+}
+
+/* .space {
+    margin-top: 13%;
+} */
+.profile-bottom {
+    margin-bottom: 15%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #222831;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.login-bg {
+    background-image: url(/images/bg.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+
+.register-bg {
+    background-image: url(/images/registerBg.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
